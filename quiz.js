@@ -9,7 +9,7 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
-const name = document.querySelector("name");
+var personalScore = document.getElementById("name");
 const score = document.getElementById("score");
 
 // create our questions
@@ -149,4 +149,9 @@ function scoreRender() {
 
   scoreDiv.innerHTML = "";
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
+}
+
+function scorefunction() {
+  var x = document.getElementById("personalScore").value;
+  document.getElementById("saved").innerHTML = x;
 }

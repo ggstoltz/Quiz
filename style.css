@@ -40,6 +40,13 @@ body {
   color: rgb(1, 52, 160);
 }
 
+#name {
+  font-size: 12px;
+  margin: 16px 16px 16px 20px;
+  color: rgb(95, 95, 95);
+  display: inline-block;
+}
+
 #question {
   width: 700px;
   height: 100px;
