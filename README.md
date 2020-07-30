@@ -1,1 +1,1 @@
-# Quiz
+This is a simple time based quiz to test about coding related elements or things. Answer the questions before time runs out, and the next question is presented. At the end you are presented with your final precent of correct answers. 
