@@ -9,6 +9,8 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
+const name = document.querySelector("name");
+const score = document.getElementById("score");
 
 // create our questions
 let questions = [
