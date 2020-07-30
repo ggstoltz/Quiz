@@ -28,7 +28,6 @@ body {
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
   text-align: center;
-  cursor: pointer;
 }
 #start:hover {
   color: rgb(127, 31, 206);
@@ -41,10 +40,24 @@ body {
 }
 
 #name {
+  width: 800px;
+  max-width: 80%;
   font-size: 12px;
   margin: 16px 16px 16px 20px;
   color: rgb(95, 95, 95);
-  display: inline-block;
+  display: block;
+}
+#BTN {
+  color: white;
+  background-color: rgb(127, 31, 206);
+  font-size: 15px;
+  line-height: 15px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px;
+  text-align: center;
+}
+#BTN:hover {
+  background-color: rgb(206, 110, 31);
 }
 
 #question {

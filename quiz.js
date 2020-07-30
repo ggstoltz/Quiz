@@ -9,8 +9,8 @@ const counter = document.getElementById("counter");
 const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
-var personalScore = document.getElementById("name");
-const score = document.getElementById("score");
+// var personalScore = document.getElementById("name");
+// const score = document.getElementById("score");
 
 // create our questions
 let questions = [
@@ -151,7 +151,32 @@ function scoreRender() {
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
 }
 
-function scorefunction() {
-  var x = document.getElementById("personalScore").value;
-  document.getElementById("saved").innerHTML = x;
-}
+// function scorefunction() {
+//   var x = document.getElementById("personalScore").value;
+//   document.getElementById("saved").innerHTML = x;
+// }
+
+// renderLastScore();
+
+// function displayMessage(type, message) {
+//   msgDiv.textContent = message;
+//   msgDiv.setAttribute("class", type);
+// }
+
+// function renderLastRegistered() {
+// var personalScore = localStorage.getItem("email");
+// }
+
+// addNameButton.addEventListener("click", function (event) {
+//   event.preventDefault();
+
+//   var personalScore = document.querySelector("#name").value;
+
+//   if (name === "") {
+//     displayMessage("error", "Name cannot be blank");
+//   }
+//   else {
+//     displayMessage("success", "Saved successfully");
+
+//     localStorage.setItem("name", name);
+//     localStorage.setItem("score", score);
